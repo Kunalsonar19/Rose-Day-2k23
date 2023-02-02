@@ -38,7 +38,7 @@ h1 {
   position: relative;
   width: 100px;
   height: 100px;
-  top: 30%;
+  top: 25%;
   left: 50%;
   margin-left: -50px;
   margin-top: -50px;
@@ -438,7 +438,7 @@ h1 {
 #prompt {
   display: block;
   position: relative;
-  top: 35%;
+  top: 33%;
   margin: 0 auto;
   text-transform: none;
   font-family: 'Great Vibes', cursive;
@@ -454,6 +454,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
   .valentine {
+    width: 200px;
     margin-top: 300px;
   }
 }
