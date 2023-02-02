@@ -17,7 +17,6 @@ html {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  pointer-events: none
 }
 
 .valentine {
@@ -28,6 +27,7 @@ html {
   mix-blend-mode: darken;
   top: 400px;
   left: 20%;
+  pointer-events: none;
 }
 
 h1 {
@@ -461,5 +461,6 @@ h1 {
   .valentine {
     width: 230px;
     margin-top: 300px;
+    pointer-events: none;
   }
 }
