@@ -32,7 +32,7 @@ html {
 
 h1 {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
   letter-spacing: 1px;
   font-size: 25px;
   font-family: 'montez', Courier, monospace;
@@ -460,7 +460,7 @@ h1 {
 @media screen and (max-width: 600px) {
   .valentine {
     width: 170px;
-    margin-top: 250px;
+    margin-top: 220px;
     pointer-events: none;
   }
 }
