@@ -36,7 +36,7 @@ h1 {
   letter-spacing: 1px;
   font-size: 25px;
   font-family: 'montez', Courier, monospace;
-  padding: 0 20px;
+  padding: 20px;
 }
 
 .rose {
@@ -477,6 +477,5 @@ h1 {
     bottom: 20px;
     left: 0;
     right: 0;
-    padding: 10px 0;
   }
 }
