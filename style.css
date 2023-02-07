@@ -443,7 +443,7 @@ h1 {
 #prompt {
   display: block;
   position: relative;
-  top: 32%;
+  top: 30%;
   margin: 0 auto;
   text-transform: none;
   font-family: 'Great Vibes', cursive;
@@ -459,8 +459,23 @@ h1 {
 
 @media screen and (max-width: 600px) {
   .valentine {
-    width: 170px;
-    margin-top: 220px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* margin-top: 20px; */
     pointer-events: none;
+  }
+
+  h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
   }
 }
